@@ -122,7 +122,7 @@ JSON code is in [grafana/mesures.json](grafana/mesures.json).
 
 
 
-## historical view : 
+## historical view
 
 JSON code is in [grafana/historique.json](grafana/historique.json).
 

@@ -17,4 +17,12 @@ You won't need to map any data fields, the exporter does all that work.
    |--------------|----------------------------|--------------------------------------------------------|---------------|
    | SMA          | SunnyBoy TriPower STL-6000 | Address 126 (add 123 to the base SMA address)          |               |
    |              |                            | Filter required for Amps at night; NaN map to Zero (0) |               |
+   |              |                            |                                                        |               |
    | SunSpec      |                            | Works out of the box (Fronius Modbus IS Sunspec)       |               |
+   |              |                            |                                                        |               |
+   | SMA          | SunnyBoy SB4.0-1AV-41      | Address 126 (add 123 to the base SMA address)          |               |
+   |              |                            | Filter required for Amps at night; NaN map to Zero (0) |               | 
+   |              |                            |   "Amps_Phase[ABC]_Aph[ABC]_A gt:3276 0.0"             |               |
+   |              |                            | Working models_id are : 101? 122, 160                  |               |
+   |              |                            |                                                        |               |
+
