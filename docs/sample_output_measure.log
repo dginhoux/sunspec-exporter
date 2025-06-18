@@ -1,0 +1,38 @@
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collecting data...
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Model: Inverter (Single Phase) (101)
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Model: Measurements_Status (122)
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Model: Multiple MPPT Inverter Extension Model (160)
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: Amps_A_A -> 0.8
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: Amps_PhaseA_AphA_A -> 0.8
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: Phase_Voltage_AN_PhVphA_V -> 239.5
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: Watts_W_W -> 150.0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: Hz_Hz_Hz -> 49.95
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: VA_VA_VA -> 200.0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: VAr_VAr_var -> 110.0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: PF_PF_Pct -> -0.804
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: WattHours_WH_Wh -> 5183810.0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: Cabinet_Temperature_TmpCab_C -> 50
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: Operating_State_St -> 4
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: Event1_Evt1 -> 0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: PVConn_PVConn -> 5
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: StorConn_StorConn -> 0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: ECPConn_ECPConn -> 1
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: ActWh_ActWh_Wh -> 5183813
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: Ris_Ris_ohms -> 2960000.0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: Global_Events_Evt -> 0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: Number_of_Modules_N -> 6
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 01_Input_ID_ID -> 1
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 01_DC_Current_DCA_A -> 0.5
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 01_DC_Voltage_DCV_V -> 253
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 01_DC_Power_DCW_W -> 130.0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 01_Module_Events_DCEvt -> 0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 02_Input_ID_ID -> 2
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 02_DC_Current_DCA_A -> 0.4
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 02_DC_Voltage_DCV_V -> 292
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 02_DC_Power_DCW_W -> 110.0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 02_Module_Events_DCEvt -> 0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 03_Input_ID_ID -> 3
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 03_Module_Events_DCEvt -> 0
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 04_Input_ID_ID -> 4
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 05_Input_ID_ID -> 5
+[2025-06-18 19:45:15] [INFO] sunspec_exporter - Collected metric: 06_Input_ID_ID -> 6

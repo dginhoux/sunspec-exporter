@@ -1,0 +1,20 @@
+---
+
+log_level: INFO  # "INFO", "WARNING", "ERROR", "CRITICAL"
+log_metrics: true
+
+mode: start   ## "start" or "query"
+port: 9807
+
+sunspec_ip: 192.168.50.212
+sunspec_port: 502
+modbus_timeout: 1  # timeout in seconds
+
+sunspec_address: 126
+sunspec_model_ids:
+  - "101"
+  - "122"
+  - "160"
+
+filters:
+  - "Amps_Phase[ABC]_Aph[ABC]_A gt:3276 0.0"

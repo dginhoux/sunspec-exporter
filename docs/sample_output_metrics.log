@@ -1,0 +1,151 @@
+# HELP python_gc_objects_collected_total Objects collected during gc
+# TYPE python_gc_objects_collected_total counter
+python_gc_objects_collected_total{generation="0"} 211.0
+python_gc_objects_collected_total{generation="1"} 4821.0
+python_gc_objects_collected_total{generation="2"} 57208.0
+# HELP python_gc_objects_uncollectable_total Uncollectable objects found during GC
+# TYPE python_gc_objects_uncollectable_total counter
+python_gc_objects_uncollectable_total{generation="0"} 0.0
+python_gc_objects_uncollectable_total{generation="1"} 0.0
+python_gc_objects_uncollectable_total{generation="2"} 0.0
+# HELP python_gc_collections_total Number of times this generation was collected
+# TYPE python_gc_collections_total counter
+python_gc_collections_total{generation="0"} 310.0
+python_gc_collections_total{generation="1"} 28.0
+python_gc_collections_total{generation="2"} 2.0
+# HELP python_info Python platform information
+# TYPE python_info gauge
+python_info{implementation="CPython",major="3",minor="9",patchlevel="23",version="3.9.23"} 1.0
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 4.1979904e+07
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 3.5319808e+07
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.7502690114e+09
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 1.58
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 7.0
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.073741816e+09
+# HELP sunspec_fn_collect_data Time spent collecting the data
+# TYPE sunspec_fn_collect_data summary
+sunspec_fn_collect_data_count 14.0
+sunspec_fn_collect_data_sum 2.852325485997426
+# HELP sunspec_fn_collect_data_created Time spent collecting the data
+# TYPE sunspec_fn_collect_data_created gauge
+sunspec_fn_collect_data_created 1.7502690127932296e+09
+# HELP modbus_error_total Number of Modbus client connection errors
+# TYPE modbus_error_total counter
+modbus_error_total 0.0
+# HELP modbus_error_created Number of Modbus client connection errors
+# TYPE modbus_error_created gauge
+modbus_error_created 1.7502690128106112e+09
+# HELP sunspec_Amps_A_A 
+# TYPE sunspec_Amps_A_A gauge
+sunspec_Amps_A_A{ip="192.168.50.212",port="502",target="126"} 0.8
+# HELP sunspec_Amps_PhaseA_AphA_A 
+# TYPE sunspec_Amps_PhaseA_AphA_A gauge
+sunspec_Amps_PhaseA_AphA_A{ip="192.168.50.212",port="502",target="126"} 0.8
+# HELP sunspec_Phase_Voltage_AN_PhVphA_V 
+# TYPE sunspec_Phase_Voltage_AN_PhVphA_V gauge
+sunspec_Phase_Voltage_AN_PhVphA_V{ip="192.168.50.212",port="502",target="126"} 240.3
+# HELP sunspec_Watts_W_W 
+# TYPE sunspec_Watts_W_W gauge
+sunspec_Watts_W_W{ip="192.168.50.212",port="502",target="126"} 140.0
+# HELP sunspec_Hz_Hz_Hz 
+# TYPE sunspec_Hz_Hz_Hz gauge
+sunspec_Hz_Hz_Hz{ip="192.168.50.212",port="502",target="126"} 49.95
+# HELP sunspec_VA_VA_VA 
+# TYPE sunspec_VA_VA_VA gauge
+sunspec_VA_VA_VA{ip="192.168.50.212",port="502",target="126"} 200.0
+# HELP sunspec_VAr_VAr_var 
+# TYPE sunspec_VAr_VAr_var gauge
+sunspec_VAr_VAr_var{ip="192.168.50.212",port="502",target="126"} 110.0
+# HELP sunspec_PF_PF_Pct 
+# TYPE sunspec_PF_PF_Pct gauge
+sunspec_PF_PF_Pct{ip="192.168.50.212",port="502",target="126"} -0.786
+# HELP sunspec_WattHours_WH_Wh 
+# TYPE sunspec_WattHours_WH_Wh gauge
+sunspec_WattHours_WH_Wh{ip="192.168.50.212",port="502",target="126"} 5.18383e+06
+# HELP sunspec_Cabinet_Temperature_TmpCab_C 
+# TYPE sunspec_Cabinet_Temperature_TmpCab_C gauge
+sunspec_Cabinet_Temperature_TmpCab_C{ip="192.168.50.212",port="502",target="126"} 49.0
+# HELP sunspec_Operating_State_St_total 
+# TYPE sunspec_Operating_State_St_total counter
+sunspec_Operating_State_St_total{ip="192.168.50.212",port="502",target="126"} 4.0
+# HELP sunspec_Event1_Evt1_total 
+# TYPE sunspec_Event1_Evt1_total counter
+sunspec_Event1_Evt1_total{ip="192.168.50.212",port="502",target="126"} 0.0
+# HELP sunspec_PVConn_PVConn_total 
+# TYPE sunspec_PVConn_PVConn_total counter
+sunspec_PVConn_PVConn_total{ip="192.168.50.212",port="502",target="126"} 5.0
+# HELP sunspec_StorConn_StorConn_total 
+# TYPE sunspec_StorConn_StorConn_total counter
+sunspec_StorConn_StorConn_total{ip="192.168.50.212",port="502",target="126"} 0.0
+# HELP sunspec_ECPConn_ECPConn_total 
+# TYPE sunspec_ECPConn_ECPConn_total counter
+sunspec_ECPConn_ECPConn_total{ip="192.168.50.212",port="502",target="126"} 1.0
+# HELP sunspec_ActWh_ActWh_Wh 
+# TYPE sunspec_ActWh_ActWh_Wh gauge
+sunspec_ActWh_ActWh_Wh{ip="192.168.50.212",port="502",target="126"} 5.183832e+06
+# HELP sunspec_Ris_Ris_ohms 
+# TYPE sunspec_Ris_Ris_ohms gauge
+sunspec_Ris_Ris_ohms{ip="192.168.50.212",port="502",target="126"} 2.96e+06
+# HELP sunspec_Global_Events_Evt_total 
+# TYPE sunspec_Global_Events_Evt_total counter
+sunspec_Global_Events_Evt_total{ip="192.168.50.212",port="502",target="126"} 0.0
+# HELP sunspec_Number_of_Modules_N_total 
+# TYPE sunspec_Number_of_Modules_N_total counter
+sunspec_Number_of_Modules_N_total{ip="192.168.50.212",port="502",target="126"} 6.0
+# HELP sunspec_01_Input_ID_ID_total 
+# TYPE sunspec_01_Input_ID_ID_total counter
+sunspec_01_Input_ID_ID_total{ip="192.168.50.212",port="502",target="126"} 1.0
+# HELP sunspec_01_DC_Current_DCA_A 
+# TYPE sunspec_01_DC_Current_DCA_A gauge
+sunspec_01_DC_Current_DCA_A{ip="192.168.50.212",port="502",target="126"} 0.5
+# HELP sunspec_01_DC_Voltage_DCV_V 
+# TYPE sunspec_01_DC_Voltage_DCV_V gauge
+sunspec_01_DC_Voltage_DCV_V{ip="192.168.50.212",port="502",target="126"} 264.0
+# HELP sunspec_01_DC_Power_DCW_W 
+# TYPE sunspec_01_DC_Power_DCW_W gauge
+sunspec_01_DC_Power_DCW_W{ip="192.168.50.212",port="502",target="126"} 120.0
+# HELP sunspec_01_Module_Events_DCEvt_total 
+# TYPE sunspec_01_Module_Events_DCEvt_total counter
+sunspec_01_Module_Events_DCEvt_total{ip="192.168.50.212",port="502",target="126"} 0.0
+# HELP sunspec_02_Input_ID_ID_total 
+# TYPE sunspec_02_Input_ID_ID_total counter
+sunspec_02_Input_ID_ID_total{ip="192.168.50.212",port="502",target="126"} 2.0
+# HELP sunspec_02_DC_Current_DCA_A 
+# TYPE sunspec_02_DC_Current_DCA_A gauge
+sunspec_02_DC_Current_DCA_A{ip="192.168.50.212",port="502",target="126"} 0.30000000000000004
+# HELP sunspec_02_DC_Voltage_DCV_V 
+# TYPE sunspec_02_DC_Voltage_DCV_V gauge
+sunspec_02_DC_Voltage_DCV_V{ip="192.168.50.212",port="502",target="126"} 305.0
+# HELP sunspec_02_DC_Power_DCW_W 
+# TYPE sunspec_02_DC_Power_DCW_W gauge
+sunspec_02_DC_Power_DCW_W{ip="192.168.50.212",port="502",target="126"} 100.0
+# HELP sunspec_02_Module_Events_DCEvt_total 
+# TYPE sunspec_02_Module_Events_DCEvt_total counter
+sunspec_02_Module_Events_DCEvt_total{ip="192.168.50.212",port="502",target="126"} 0.0
+# HELP sunspec_03_Input_ID_ID_total 
+# TYPE sunspec_03_Input_ID_ID_total counter
+sunspec_03_Input_ID_ID_total{ip="192.168.50.212",port="502",target="126"} 3.0
+# HELP sunspec_03_Module_Events_DCEvt_total 
+# TYPE sunspec_03_Module_Events_DCEvt_total counter
+sunspec_03_Module_Events_DCEvt_total{ip="192.168.50.212",port="502",target="126"} 0.0
+# HELP sunspec_04_Input_ID_ID_total 
+# TYPE sunspec_04_Input_ID_ID_total counter
+sunspec_04_Input_ID_ID_total{ip="192.168.50.212",port="502",target="126"} 4.0
+# HELP sunspec_05_Input_ID_ID_total 
+# TYPE sunspec_05_Input_ID_ID_total counter
+sunspec_05_Input_ID_ID_total{ip="192.168.50.212",port="502",target="126"} 5.0
+# HELP sunspec_06_Input_ID_ID_total 
+# TYPE sunspec_06_Input_ID_ID_total counter
+sunspec_06_Input_ID_ID_total{ip="192.168.50.212",port="502",target="126"} 6.0
